@@ -1,5 +1,5 @@
 {
-  "name": "Wisi Shortener",
+  "name": "Nöbetçi Eczaneler Bilgi Ekranı Shortener",
   "version": "1.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "node index.js"
   },
   "keywords": [],
-  "author": "vsl-dev",
+  "author": "hey-dev",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
