@@ -59,7 +59,7 @@ app.get('/create/custom', (req, res) => {
         db
           .has(req.query.url)
       )
-        return res.send("This link is already in the system!");
+        return res.send("alo!");
   db.set(q, a)
   res.render("success", {
 	  url: q
@@ -91,5 +91,5 @@ app.get('/:code', (req, res) => {
 }});
 
 app.listen(port, () => {
-  console.log(`Wisi is online! Port: ${port} .`)
+  console.log(`Sistem aktif aq sorun etme artık Port: ${port} .`)
 })
